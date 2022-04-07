@@ -1,0 +1,2 @@
+# EstatComp
+Repositorio da disciplina
