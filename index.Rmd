@@ -1,0 +1,45 @@
+---
+title: "Teste da Aula"
+author: "Gustavo Duque Thomaz Mourão Elias"
+date: '2022-04-07'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Teste teste teste
+
+Escrita em itálico: (`*itálico*`) *itálico*
+
+Escrita em negrito: (`**negrito**`) ou (`_negrito_`) **negrito**
+
+Nota de rodapé: Gustavo^[Alguém]
+
+Links: `[Nome do Link](Link])` [Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+
+Imagem: `![Nome da imagem](Local da imagem){Argumentos extras}`
+
+Inserindo resultado de objeto no texto **`r mean(1:10)`**
+
+    Exemplo de subtopicos: dois tabs
+    
+Chunks de código: botao verde acima
+```{r}
+dados <- (0:10)
+dados
+```
+
+
+Média: `r mean(dados)`
+
+Desvio padrão: `r sd(dados)`
+
+Variância: `r var(dados)`
+
+Equação:
+
+$X^h - \sqrt{\frac{a}{s}}$
+
+Demais funções do LaTex funcionam também
